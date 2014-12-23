@@ -12,14 +12,12 @@
 		31419D9817E08256007B02E2 /* ISO8601ForCocoaWeekDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31419D9617E08256007B02E2 /* ISO8601ForCocoaWeekDateTests.m */; };
 		3198826517FCF2B0005FB1DA /* ISO8601MemoryWarningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198826417FCF2B0005FB1DA /* ISO8601MemoryWarningTests.m */; };
 		31A271B717CE9B5A00E3FA7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A271B617CE9B5A00E3FA7D /* Foundation.framework */; };
-		31A271C517CE9B5B00E3FA7D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AEAFDE17546BC800BD292F /* SenTestingKit.framework */; };
 		31A271C817CE9B5B00E3FA7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A271B617CE9B5A00E3FA7D /* Foundation.framework */; };
 		31A271CB17CE9B5B00E3FA7D /* libISO8601ForCocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A271B517CE9B5A00E3FA7D /* libISO8601ForCocoaTouch.a */; };
 		31A271D117CE9B5B00E3FA7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31A271CF17CE9B5B00E3FA7D /* InfoPlist.strings */; };
 		31A271DB17CE9C3A00E3FA7D /* ISO8601ForCocoaCalendarDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AEAFEB17546BC900BD292F /* ISO8601ForCocoaCalendarDateTests.m */; };
 		31A271DC17CE9C5E00E3FA7D /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AEAFF617546BFA00BD292F /* ISO8601DateFormatter.m */; };
 		31A271DD17CE9E3500E3FA7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AEAFD117546BC800BD292F /* Foundation.framework */; };
-		31AEAFDF17546BC800BD292F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AEAFDE17546BC800BD292F /* SenTestingKit.framework */; };
 		31AEAFE317546BC800BD292F /* libISO8601ForCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AEAFC917546BC800BD292F /* libISO8601ForCocoa.a */; };
 		31AEAFE917546BC800BD292F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31AEAFE717546BC800BD292F /* InfoPlist.strings */; };
 		31AEAFEC17546BC900BD292F /* ISO8601ForCocoaCalendarDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AEAFEB17546BC900BD292F /* ISO8601ForCocoaCalendarDateTests.m */; };
@@ -81,7 +79,6 @@
 		31AEAFD117546BC800BD292F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		31AEAFD417546BC800BD292F /* ISO8601ForCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISO8601ForCocoa-Prefix.pch"; sourceTree = "<group>"; };
 		31AEAFDD17546BC800BD292F /* ISO8601ForCocoaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISO8601ForCocoaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31AEAFDE17546BC800BD292F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		31AEAFE617546BC800BD292F /* ISO8601ForCocoaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISO8601ForCocoaTests-Info.plist"; sourceTree = "<group>"; };
 		31AEAFE817546BC800BD292F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31AEAFEA17546BC800BD292F /* ISO8601ForCocoaCalendarDateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISO8601ForCocoaCalendarDateTests.h; sourceTree = "<group>"; };
@@ -108,7 +105,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3119ABEF17FCF8F0003412AE /* UIKit.framework in Frameworks */,
-				31A271C517CE9B5B00E3FA7D /* SenTestingKit.framework in Frameworks */,
 				31A271C817CE9B5B00E3FA7D /* Foundation.framework in Frameworks */,
 				31A271CB17CE9B5B00E3FA7D /* libISO8601ForCocoaTouch.a in Frameworks */,
 			);
@@ -126,7 +122,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31AEAFDF17546BC800BD292F /* SenTestingKit.framework in Frameworks */,
 				31AEAFE317546BC800BD292F /* libISO8601ForCocoa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				3119ABEE17FCF8F0003412AE /* UIKit.framework */,
-				31AEAFDE17546BC800BD292F /* SenTestingKit.framework */,
 				31A271B617CE9B5A00E3FA7D /* Foundation.framework */,
 				31AEAFCE17546BC800BD292F /* Other Frameworks */,
 			);
@@ -307,7 +301,7 @@
 			name = ISO8601ForCocoaTouchTests;
 			productName = ISO8601ForCocoaTouchTests;
 			productReference = 31A271C417CE9B5B00E3FA7D /* ISO8601ForCocoaTouchTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		31AEAFC817546BC800BD292F /* ISO8601ForCocoa */ = {
 			isa = PBXNativeTarget;
@@ -343,7 +337,7 @@
 			name = ISO8601ForCocoaTests;
 			productName = ISO8601ForCocoaTests;
 			productReference = 31AEAFDD17546BC800BD292F /* ISO8601ForCocoaTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -351,11 +345,12 @@
 		31AEAFC117546BC800BD292F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Peter Hosey";
 				TargetAttributes = {
 					31AEAFDC17546BC800BD292F = {
-						TestTargetID = 31AEAFC817546BC800BD292F /* ISO8601ForCocoa */;
+						TestTargetID = 31AEAFC817546BC800BD292F;
 					};
 				};
 			};
@@ -588,7 +583,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -619,7 +613,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -671,7 +664,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -680,7 +676,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -688,7 +683,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -697,7 +695,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
